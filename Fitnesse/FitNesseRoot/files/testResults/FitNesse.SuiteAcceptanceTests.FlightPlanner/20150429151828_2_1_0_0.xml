@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<suiteResults>
+  <FitNesseVersion>v20150406</FitNesseVersion>
+  <rootPath>FitNesse.SuiteAcceptanceTests.FlightPlanner</rootPath>
+    <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.FlightPlanner.GetShortestRoute</name>
+    <date>04/29/2015 15:18:28</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.FlightPlanner.GetShortestRoute?pageHistory&amp;resultDate=20150429151828</pageHistoryLink>
+    <counts>
+      <right>5</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>210</runTimeInMillis>
+  </pageHistoryReference>
+    <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.FlightPlanner.GetShortestRouteWithMultipleFlights</name>
+    <date>04/29/2015 15:18:28</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.FlightPlanner.GetShortestRouteWithMultipleFlights?pageHistory&amp;resultDate=20150429151828</pageHistoryLink>
+    <counts>
+      <right>0</right>
+      <wrong>3</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>12</runTimeInMillis>
+  </pageHistoryReference>
+    <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.FlightPlanner.WhenNoRouteIsFound</name>
+    <date>04/29/2015 15:18:28</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.FlightPlanner.WhenNoRouteIsFound?pageHistory&amp;resultDate=20150429151828</pageHistoryLink>
+    <counts>
+      <right>5</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>11</runTimeInMillis>
+  </pageHistoryReference>
+    <finalCounts>
+    <right>2</right>
+    <wrong>1</wrong>
+    <ignores>0</ignores>
+    <exceptions>0</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>568</totalRunTimeInMillis>
+
+</suiteResults>
+

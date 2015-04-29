@@ -1,0 +1,8 @@
+
+!3 !-fit:fit.FitServer-!
+|'''Date: '''| 11:29:58 PM (IST) on Wednesday, April 29, 2015 |
+|'''Test Page: '''|.FitNesse.SuiteAcceptanceTests.FlightPlanner|
+|'''Command: '''| !-/Library/Java/JavaVirtualMachines/jdk1.8.0_05.jdk/Contents/Home/bin/java -cp fitnesse.jar:../target/test-classes:../target/classes:classes:lib/*.jar fit.FitServer Sahils-MBP 62049 3863-! |
+|'''Exit code: '''| 0 |
+|'''Time elapsed: '''| 1.148 seconds |
+

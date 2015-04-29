@@ -1,0 +1,6 @@
+!3 !-slim-!
+|'''Date: '''|!-6:02:00 PM (IST) on Monday, April 27, 2015-!|
+|'''Test Page: '''|.FitNesse.SuiteAcceptanceTests.SuiteAuthenticationTests.TestReadChildOfSecurePage|
+|'''Command: '''|!-java -cp fitnesse.jar:classes:lib/*.jar:fitnesse.jar fitnesse.slim.SlimService  8088-!|
+|'''Exit code: '''|!-0-!|
+|'''Time elapsed: '''|!-0.443 seconds-!|

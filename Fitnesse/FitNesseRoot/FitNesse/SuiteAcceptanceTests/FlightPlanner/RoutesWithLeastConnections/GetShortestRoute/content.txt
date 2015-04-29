@@ -1,0 +1,25 @@
+!path ../target/test-classes
+!path ../target/classes
+
+
+
+!|com.flightbookinglab.fixture.GivenExistingAirport|
+|City Name                                         |
+|Delhi                                             |
+|Pune                                              |
+|Jaipur                                            |
+|Chennai                                           |
+
+!|Given Flights      |
+|Operator Name  |Source|Destination|Flight Name|Price|
+|JETAIRWAYS|Delhi |Pune       |JetDP      |500  |
+|JETAIRWAYS|Delhi |Jaipur     |JetDJ      |500  |
+|JETAIRWAYS|Pune  |Jaipur     |JetPJ      |500  |
+
+!|When User Search For Flight With Less Connections Between|
+|Source|Destination|
+|Delhi|Pune|
+
+|Then Following Flight Options Are Shown|
+|Operator Name  |Source|Destination|Flight Name|Price|
+|JETAIRWAYS|Delhi |Pune       |JetDP      |500  |

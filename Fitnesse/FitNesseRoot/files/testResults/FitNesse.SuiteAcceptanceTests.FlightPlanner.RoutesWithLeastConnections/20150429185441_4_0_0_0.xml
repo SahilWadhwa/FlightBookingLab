@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<suiteResults>
+  <FitNesseVersion>v20150406</FitNesseVersion>
+  <rootPath>FitNesse.SuiteAcceptanceTests.FlightPlanner.RoutesWithLeastConnections</rootPath>
+    <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.FlightPlanner.RoutesWithLeastConnections.GetMulitpleOptionsForShortestRoute</name>
+    <date>04/29/2015 18:54:41</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.FlightPlanner.RoutesWithLeastConnections.GetMulitpleOptionsForShortestRoute?pageHistory&amp;resultDate=20150429185441</pageHistoryLink>
+    <counts>
+      <right>10</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>217</runTimeInMillis>
+  </pageHistoryReference>
+    <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.FlightPlanner.RoutesWithLeastConnections.GetShortestRoute</name>
+    <date>04/29/2015 18:54:42</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.FlightPlanner.RoutesWithLeastConnections.GetShortestRoute?pageHistory&amp;resultDate=20150429185442</pageHistoryLink>
+    <counts>
+      <right>5</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>15</runTimeInMillis>
+  </pageHistoryReference>
+    <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.FlightPlanner.RoutesWithLeastConnections.GetShortestRouteWithMultipleFlights</name>
+    <date>04/29/2015 18:54:42</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.FlightPlanner.RoutesWithLeastConnections.GetShortestRouteWithMultipleFlights?pageHistory&amp;resultDate=20150429185442</pageHistoryLink>
+    <counts>
+      <right>10</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>16</runTimeInMillis>
+  </pageHistoryReference>
+    <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.FlightPlanner.RoutesWithLeastConnections.WhenNoRouteIsFound</name>
+    <date>04/29/2015 18:54:42</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.FlightPlanner.RoutesWithLeastConnections.WhenNoRouteIsFound?pageHistory&amp;resultDate=20150429185442</pageHistoryLink>
+    <counts>
+      <right>5</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>15</runTimeInMillis>
+  </pageHistoryReference>
+    <finalCounts>
+    <right>4</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>0</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>623</totalRunTimeInMillis>
+
+</suiteResults>
+

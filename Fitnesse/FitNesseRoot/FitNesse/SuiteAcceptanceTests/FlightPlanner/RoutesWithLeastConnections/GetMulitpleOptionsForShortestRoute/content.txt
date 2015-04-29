@@ -1,0 +1,31 @@
+!path ../target/test-classes
+!path ../target/classes
+
+
+
+!|com.flightbookinglab.fixture.GivenExistingAirport|
+|City Name                                         |
+|Delhi                                             |
+|Pune                                              |
+|Jaipur                                            |
+|Mumbai                                            |
+
+!|Given Flights                                    |
+|Operator Name|Source|Destination|Flight Name|Price|
+|JETAIRWAYS   |Delhi |Jaipur     |JetDJ      |500  |
+|JETAIRWAYS   |Delhi |Mumbai     |JetDM      |500  |
+|JETAIRWAYS   |Jaipur|Mumbai     |JetJM      |500  |
+|INDIGO       |Delhi |Mumbai     |IndigoDM      |500  |
+
+
+
+!|When User Search For Flight With Less Connections Between|
+|Source         |Destination         |
+|Delhi          |Mumbai              |
+
+|Then Following Flight Options Are Shown           |
+|Operator Name|Source|Destination|Flight Name|Price|
+|INDIGO       |Delhi |Mumbai     |IndigoDM      |500  |
+|JETAIRWAYS   |Delhi |Mumbai     |JetDM      |500  |
+
+

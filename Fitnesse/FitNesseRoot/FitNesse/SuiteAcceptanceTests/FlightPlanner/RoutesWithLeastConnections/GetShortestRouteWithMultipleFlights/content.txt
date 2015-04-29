@@ -1,0 +1,32 @@
+!path ../target/test-classes
+!path ../target/classes
+
+
+
+!|com.flightbookinglab.fixture.GivenExistingAirport|
+|City Name                                         |
+|Delhi                                             |
+|Pune                                              |
+|Jaipur                                            |
+|Chennai                                           |
+
+
+Two Options: Delhi->Chennai->Jaipur->Pune   &   Delhi->Jaipur->Pune
+
+
+!|Given Flights                                     |
+|Operator Name|Source |Destination|Flight Name|Price|
+|JETAIRWAYS   |Delhi  |Chennai    |JetDC      |500  |
+|JETAIRWAYS   |Chennai|Jaipur     |JetCJ      |500  |
+|JETAIRWAYS   |Delhi  |Jaipur     |JetDJ      |500  |
+|INDIGO       |Jaipur |Pune       |IndigoJP   |1500 |
+
+!|When User Search For Flight With Less Connections Between|
+|Source         |Destination         |
+|Delhi          |Pune                |
+
+|Then Following Flight Options Are Shown           |
+|Operator Name|Source|Destination|Flight Name|Price|
+|JETAIRWAYS   |Delhi |Jaipur     |JetDJ      |500  |
+|INDIGO       |Jaipur|Pune       |IndigoJP   |1500 |
+

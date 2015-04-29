@@ -1,0 +1,8 @@
+
+!3 !-fit:fit.FitServer-!
+|'''Date: '''| 7:05:59 PM (IST) on Wednesday, April 29, 2015 |
+|'''Test Page: '''|.FitNesse.SuiteAcceptanceTests.FlightPlanner.RoutesWithCheapestConnection|
+|'''Command: '''| !-/Library/Java/JavaVirtualMachines/jdk1.8.0_31.jdk/Contents/Home/bin/java -cp fitnesse.jar:../target/test-classes:../target/classes:classes:lib/*.jar fit.FitServer WDXSW31759D59 55905 3863-! |
+|'''Exit code: '''| 3 |
+|'''Time elapsed: '''| 0.556 seconds |
+
