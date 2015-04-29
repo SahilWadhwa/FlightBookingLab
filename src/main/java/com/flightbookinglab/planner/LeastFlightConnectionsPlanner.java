@@ -21,7 +21,7 @@ public class LeastFlightConnectionsPlanner extends GeneralRoutePlanner {
             if (listTreeMap.containsKey(size)) {
                 listTreeMap.get(size).add(route);
             } else{
-                ArrayList<Route> routes = new ArrayList<>();
+                ArrayList<Route> routes = new ArrayList<Route>();
                 routes.add(route);
                 listTreeMap.put(size, routes);
             }

@@ -10,7 +10,7 @@ import java.util.List;
 public class AirlineBuilder {
 
     private Operator operator;
-    private List<Flight> flights = new ArrayList<>();
+    private List<Flight> flights = new ArrayList<Flight>();
 
     public static AirlineBuilder getInstance() {
         AirlineBuilder airlineBuilder = new AirlineBuilder();
